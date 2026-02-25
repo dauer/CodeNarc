@@ -10,15 +10,9 @@ plugins {
 group = 'org.codenarc'
 version = '4.0.0-SNAPSHOT'
 
-//java {
-//    toolchain {
-//        languageVersion = JavaLanguageVersion.of(17)
-//    }
-//}
-
 java {
-    sourceCompatibility = '1.8'
-    targetCompatibility = '1.8'
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
 }
 
 base {
@@ -30,8 +24,7 @@ repositories {
     maven { url = 'oss.sonatype.org' }
 }
 
-//def groovyVersion = '5.0.3'
-def groovyVersion = '4.0.24'
+def groovyVersion = '5.0.3'
 def gmetricsVersion = '3.0.0'
 def slf4jVersion = '1.7.35'
 def junitVersion = "5.8.2"

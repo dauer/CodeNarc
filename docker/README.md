@@ -4,7 +4,7 @@ To build the image:
 
     docker build -t codenarc .
     # or
-    docker build -t codenarc --build-arg CODENARC_VERSION=1.6.1 --build-arg GROOVY_VERSION=3.0.6 .
+    docker build -t codenarc --build-arg CODENARC_VERSION=4.0.0 --build-arg GROOVY_VERSION=5.0.3 .
 
 To run:
 
