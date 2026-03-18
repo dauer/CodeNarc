@@ -14,7 +14,7 @@ Build, Infrastructure and Tests
  - #810: Upgrade Gradle wrapper to 9.2.1.
  - #810: gradle.yml: Upgrade to actions/checkout@v4, JDK 17 and gradle/actions/setup-gradle@v3.
  - #810: build.gradle: Switch dependencies to using junit-bom, and add junit-platform-launcher.
- - #811: Drop support for Groovy 3.x.
+ - #817: Make Groovy 5 the default build, drop Groovy 3 support. ([Jedrzej Serwa](https://github.com/jedrzejserwa))
  - #812: Streamline report writer tests. Add test for `GitlabCodeQualityReportWriter`.
  - #813: Upgrade to Shadow Gradle plugin 9.3.0. Do NOT publish the codenarc-all jar.
  - #809: Fix broken links in CodeNarc documentation. 

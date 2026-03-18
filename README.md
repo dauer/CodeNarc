@@ -22,7 +22,7 @@ List of tools and IDEs integrating CodeNarc out of the box is available [here](h
 
 CodeNarc requires
 
-- Groovy version 5.0 or later
+- Groovy version 4.0 or later
 - The [SLF4J](https://www.slf4j.org/) api/implementation jars, accessible on the CLASSPATH.
 - The [GMetrics](http://gmetrics.org) jar, version 3.0.0 or later; only needed if using some size/complexity rules.
 
